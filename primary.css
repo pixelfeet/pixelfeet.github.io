@@ -1,0 +1,38 @@
+@font-face {
+	font-family: Geo;
+	src: url(Geo/Geo.otf);
+}
+
+html {
+	background-color: #4D4D4D;
+}
+
+h1 {
+	font-family: Geo;
+	font-size: 128pt;
+	text-align: center;
+	color: white;
+}
+
+table {
+	font-family: Geo;
+	font-size: 16pt;
+	color: white;
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
+	text-align: center;
+	horizontal-align: center;
+}
+
+tr {
+	height: 50px;
+}
+
+td {
+	width: 17.5%;
+	transition: font-size 0.5s;
+}
+td:hover {
+	font-size: 200%;
+}
