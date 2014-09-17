@@ -12,27 +12,51 @@ h1 {
 	font-size: 128pt;
 	text-align: center;
 	color: white;
+	line-height: 0;
 }
 
-table {
+h3 {
 	font-family: Geo;
 	font-size: 16pt;
-	color: white;
-	margin-left: 15%;
-	margin-right: 15%;
-	width: 70%;
 	text-align: center;
-	horizontal-align: center;
+	color: white;
+	line-height: 0;
 }
 
-tr {
-	height: 50px;
+/*
+.header {
+	position: relative;
+	line-height: 0;
+	top: 128px;
+}
+*/
+
+a:link {
+	color: white;
+	text-decoration: none;
 }
 
-td {
-	width: 17.5%;
-	transition: font-size 0.5s;
+a:visited {
+	color: white;
+	text-decoration: none;
 }
-td:hover {
-	font-size: 200%;
+
+a:hover {
+	color: #D3D3D3;
+	text-decoration: none;
 }
+
+a:active {
+	color: #D3D3D3;
+	text-decoration: none;
+}
+
+.twitter-timeline {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 64px;
+	width: 520px;
+	height: 600px;
+}
+
