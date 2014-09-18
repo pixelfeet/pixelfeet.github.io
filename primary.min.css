@@ -1,0 +1,13 @@
+@font-face{font-family:Geo;src:url(Geo/Geo.otf);}
+html{background-color:#4D4D4D;}
+header h1{font-family:Geo;font-size:128pt;text-align:center;color:white;margin:0px;}
+nav h3{font-family:Geo;font-size:16pt;text-align:center;color:white;margin-top:0px;margin-bottom:50px;}
+article{width:70%;max-width:800px;margin-top:16px;margin-left:auto;margin-right:auto;padding:16px;padding-left:25px;padding-right:25px;background-color:#CFCFCF;}
+article h2{text-align:center;font-family:Geo;font-size:32pt;color:black;padding:0px;}
+article p{font-family:sans-serif;font-size:14pt;color:black;}
+a:link{color:white;text-decoration:none;}
+a:visited{color:white;text-decoration:none;}
+a:hover{color:#D3D3D3;text-decoration:none;}
+a:active{color:#D3D3D3;text-decoration:none;}
+.twitter-timeline{display:block;margin-left:auto;margin-right:auto;margin-top:64px;width:520px;height:600px;text-align:center;}
+
